@@ -1,10 +1,5 @@
-#navBar {
-    height: 100px;
-    display: flex;
+.custom-navbar {
     background-color: cornflowerblue;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 10px;
 }
 #div-logo {
     display: flex;
@@ -88,7 +83,13 @@
     padding: 0 15px;
     font-size: 16px;
     border-radius: 10px;
+    transition: transform 0.2s ease, background-color 0.3s ease;
 }
+#buttons button:active {
+    transform: scale(0.95);
+    background-color: rgb(70, 85, 165);
+}
+
 
 @media (max-width: 1467px) {
     #input-search-div {
