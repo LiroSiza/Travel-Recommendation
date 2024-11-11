@@ -26,34 +26,40 @@
     </style>
 </head>
 <body>
-    <nav>
-        <div id="navBar">
-            <div id="div-logo">
-                <div><img src="../assets/plane_logo.png" alt="plane logo" width="70px"></div>
-                <div><h1 style="user-select: none;">TravelHorizons</h1></div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <div id="div-logo" class="d-flex align-items-center">
+                <img src="../assets/plane_logo.png" alt="plane logo" width="70px">
+                <h1 class="ms-2" style="user-select: none;">TravelHorizons</h1>
             </div>
-            <div id="links-navbar">
-                <div id="div-links">
-                    <a href="home.html">Home</a>
-                    <a href="about.html">About Us</a>
-                    <a href="contact.html">Contact Us</a>
-                </div>
-            </div>
-            <div id="search-bar-ext">
-                <div id="search-bar-in">
-                    <div id="search-search-btn"><img src="../assets/search_icon.png" alt="search icon"></div>
-                    <div id="input-search"><input type="text" name="searchPlace" id="placeInput" placeholder="Search place"></div>
-                    <div id="search-cancel-btn">
-                        
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul id="div-links" class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <div id="search-bar-in" class="d-flex">
+                    <div id="search-search-btn">
+                        <img src="../assets/search_icon.png" alt="search icon">
                     </div>
-                    <div id="buttons">
+                    <div id="input-search-div"><input type="text" placeholder="Enter a destination or keyword"></div>
+                    <div id="buttons" class="d-flex">
                         <button type="button" class="btn btn-light">Search</button>
                         <button type="button" class="btn btn-light">Clear</button>
                     </div>
                 </div>
             </div>
         </div>
-    </nav>
+    </nav>    
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 </body>

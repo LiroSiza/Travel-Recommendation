@@ -1,87 +1,177 @@
-#navBar{
+#navBar {
     height: 100px;
-    border: 1px solid black;
     display: flex;
     background-color: cornflowerblue;
-    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
 }
-#div-logo{
-    height: 100%;
+#div-logo {
+    display: flex;
+    font-family: "Shrikhand", serif;
+    color: #fff;
+    align-items: center;
     width: 30%;
-    margin-left: 1%;
+    min-width: 200px;
+}
+#links-navbar {
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 40%;
 }
-#links-navbar{
-    height: 100%;
-    width: 35%;
+#div-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
+#div-links a {
+    color: white;
+    font-family: "Oswald", serif;
+    text-decoration: none;
+    font-weight: 400;
+    user-select: none;
+}
+#div-links a:hover {
+    color: rgb(217, 218, 219);
+}
+#search-bar-ext {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
+    width: 30%;
+    min-width: 300px;
 }
-#search-bar-ext{
-    display: flex;
-    align-items: center;
-    height: 100%;
-    width: 35%;
-}
-#search-bar-in{
-    background-color: rgb(255, 255, 255);
+#search-bar-in {
+    background-color: #fff;
     width: 90%;
-    height: 40%;
-    margin: 0 10% 0 0%;
+    height: 40px;
     border-radius: 20px;
     display: flex;
     align-items: center;
+    padding: 0 5px;
+    position: relative;
 }
-#links-navbar a{
-    margin: 20px;
-}
-#div-links{
-    display: flex;
-    margin-left: 5%;
-    width: 90%;
-    margin-right: 5%;
-    justify-content: center;
-    align-items: center;
-}
-#search-search-btn{
+#search-search-btn {
     background-color: rgb(96, 117, 223);
-    width:35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
-    margin-left: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#search-search-btn img{
+#search-search-btn img {
     width: 20px;
 }
-#buttons{
-    width: 35%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: 0px;
+#input-search-div {
+    width: 55%;
 }
-#buttons button{
-    background-color: rgb(96, 117, 223);
-    color: white;
+#input-search-div input[type="text"] {
     margin-left: 10px;
-}
-#input-search{
-    width: 50%;
-    height: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#input-search input[type="text"]{
-    margin-left: 5px;
     width: 100%;
     border: none;
     outline: none;
 }
-#input-search input[type="text"]::selection{
-    border: 0px;
+#buttons {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: 8px;
+}
+#buttons button {
+    background-color: rgb(96, 117, 223);
+    color: #fff;
+    height: 35px;
+    padding: 0 15px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+@media (max-width: 1467px) {
+    #input-search-div {
+        width: 40%;
+    }
+}
+@media (max-width: 1080px) {
+    #input-search-div {
+        width: 35%;
+    }
+}
+@media (max-width: 768px) {
+    #navBar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    #div-logo {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    #links-navbar {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    #div-links {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    #search-bar-ext {
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    #search-bar-in {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 10px;
+    }
+
+    #buttons {
+        flex-direction: row;
+        gap: 10px;
+        justify-content: flex-end;
+        width: auto;
+        margin-left: auto;
+    }
+    #input-search-div {
+        width: 70%;
+    }
+}
+
+@media (max-width: 700px) {
+    #input-search-div {
+        width: 60%;
+    }
+}
+
+@media (max-width: 576px) {
+    #div-logo h1 {
+        font-size: 1.2rem;
+    }
+
+    #buttons {
+        flex-direction: row;
+        gap: 5px;
+        justify-content: flex-end;
+    }
+
+    #buttons button {
+        height: 30px;
+        font-size: 14px;
+    }
+    #input-search-div {
+        width: 58%;
+    }
 }
