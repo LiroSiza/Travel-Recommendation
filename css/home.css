@@ -1,0 +1,73 @@
+body {
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    background-image: url('../assets/landscape2.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+body::before {
+    content: '';
+    background-color: rgba(100, 149, 237, 0.3);
+    pointer-events: none;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+main{
+    
+}
+#main-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+aside{
+    width: 10%;
+    height: 100%;
+}
+main{
+    width: 90%;
+}
+#main-text{
+    width: 60%;
+    height: auto;
+    margin-top: 10%;
+}
+#main-text h2{
+    color: white;
+    font-family: "Anton", sans-serif;
+    font-size: 80px;
+}
+#secundary-text{
+    margin-top: 5%;
+    width: 35%;
+    height: auto;
+}
+#secundary-text p{
+    color: white;
+    font-weight: bold;
+}
+#book-btn{
+    margin-top: 5%;
+    width: auto;
+    height: auto;
+}
+#book-btn .btn-light {
+    font-family: "Oswald", serif;
+    color: white;
+    width: 125px;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    border: none;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+#book-btn .btn-light:active {
+    transform: scale(0.95);
+    background-color: rgb(70, 85, 165);
+}
+
