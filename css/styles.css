@@ -2,3 +2,198 @@ body{
     padding: 0;
     margin: 0;
 }
+.custom-navbar {
+    background-color: cornflowerblue;
+}
+#div-logo {
+    display: flex;
+    font-family: "Shrikhand", serif;
+    color: #fff;
+    align-items: center;
+    width: 30%;
+    min-width: 200px;
+}
+#links-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+#div-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
+#div-links a {
+    color: white;
+    font-family: "Oswald", serif;
+    text-decoration: none;
+    font-weight: 400;
+    user-select: none;
+}
+#div-links a:hover {
+    color: rgb(217, 218, 219);
+}
+#search-bar-ext {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30%;
+    min-width: 300px;
+}
+#search-bar-in {
+    background-color: #fff;
+    width: 90%;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    position: relative;
+}
+#search-search-btn {
+    background-color: rgb(96, 117, 223);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search-search-btn img {
+    width: 20px;
+}
+#input-search-div {
+    width: 55%;
+}
+#input-search-div input[type="text"] {
+    margin-left: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+#buttons {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: 8px;
+}
+#buttons button {
+    background-color: rgb(96, 117, 223);
+    color: #fff;
+    height: 35px;
+    padding: 0 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+#buttons button:active {
+    transform: scale(0.95);
+    background-color: rgb(70, 85, 165);
+}
+
+#div-links a {
+    color: white;
+    font-family: "Oswald", serif;
+    text-decoration: none;
+    font-weight: 400;
+    position: relative;
+}
+#div-links a.active::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+
+
+@media (max-width: 1467px) {
+    #input-search-div {
+        width: 40%;
+    }
+}
+@media (max-width: 1080px) {
+    #input-search-div {
+        width: 35%;
+    }
+}
+@media (max-width: 768px) {
+    #navBar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    #div-logo {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    #links-navbar {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    #div-links {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    #search-bar-ext {
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    #search-bar-in {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 10px;
+    }
+
+    #buttons {
+        flex-direction: row;
+        gap: 10px;
+        justify-content: flex-end;
+        width: auto;
+        margin-left: auto;
+    }
+    #input-search-div {
+        width: 70%;
+    }
+}
+
+@media (max-width: 700px) {
+    #input-search-div {
+        width: 60%;
+    }
+}
+
+@media (max-width: 576px) {
+    #div-logo h1 {
+        font-size: 1.2rem;
+    }
+
+    #buttons {
+        flex-direction: row;
+        gap: 5px;
+        justify-content: flex-end;
+    }
+
+    #buttons button {
+        height: 30px;
+        font-size: 14px;
+    }
+    #input-search-div {
+        width: 58%;
+    }
+}
