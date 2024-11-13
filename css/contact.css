@@ -114,3 +114,15 @@ main{
 .mb-3{
     background-color: d rgba(100, 149, 237, 0.3) !important;
 }
+.mb-3 {
+    background-color: rgba(100, 149, 237, 0.3) !important;
+    margin-bottom: 0 !important; /* Elimina el margen inferior */
+}
+.form-control {
+    background-color: rgba(100, 149, 237, 0.3); /* Color de fondo para inputs y textarea */
+    border: none; /* Elimina el borde del input */
+    color: white; /* Cambia el color del texto a blanco */
+}
+.mb{
+    border-bottom: 20px solid rgba(100, 149, 237, 0.02);
+}
