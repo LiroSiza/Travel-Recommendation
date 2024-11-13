@@ -1,6 +1,8 @@
 body{
     padding: 0;
+    height: 100vh;
     margin: 0;
+    user-select: none;
 }
 .custom-navbar {
     background-color: cornflowerblue;
@@ -66,7 +68,7 @@ body{
     width: 20px;
 }
 #input-search-div {
-    width: 55%;
+    width: 55% !important;
 }
 #input-search-div input[type="text"] {
     margin-left: 10px;
@@ -110,6 +112,11 @@ body{
     width: 100%;
     height: 2px;
     background-color: white;
+}
+
+
+img {
+    -webkit-user-drag: none;
 }
 
 
