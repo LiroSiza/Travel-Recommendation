@@ -4,51 +4,43 @@
         "name": "Australia",
         "cities": [
             {
+                "type": "beach",
                 "name": "Sydney",
                 "imageURL": "../assets/places/australia_sydney.jpg",
                 "description": "A vibrant city known for its iconic landmarks like Sydney Opera House and Sydney Harbour Bridge."
             },
             {
-                "name": "Melbourne",
-                "imageURL": "../assets/places/australia_melbourne.jpg",
-                "description": "Known for its arts scene, coffee culture, and diverse cuisine."
-            },
-            {
-                "name": "Brisbane",
-                "imageURL": "../assets/places/australia_brisbane.jpg",
-                "description": "A sunny city famous for its outdoor lifestyle and cultural attractions."
-            },
-            {
-                "name": "Perth",
-                "imageURL": "../assets/places/australia_perth.jpg",
-                "description": "Known for its beautiful beaches and vibrant arts scene."
-            },
-            {
-                "name": "Adelaide",
-                "imageURL": "../assets/places/australia_adelaide.jpg",
-                "description": "Famous for its festivals, food, and nearby wine regions."
-            },
-            {
+                "type": "beach",
                 "name": "Gold Coast",
                 "imageURL": "../assets/places/australia_goldcoast.jpg",
                 "description": "Renowned for its surfing beaches and theme parks."
             },
             {
+                "type": "temple",
+                "name": "Brisbane",
+                "imageURL": "../assets/places/australia_brisbane.jpg",
+                "description": "A sunny city famous for its outdoor lifestyle and cultural attractions."
+            },
+            {
+                "type": "temple",
                 "name": "Canberra",
                 "imageURL": "../assets/places/australia_canberra.jpg",
                 "description": "The capital city, known for its national monuments and museums."
             },
             {
-                "name": "Hobart",
-                "imageURL": "../assets/places/australia_hobart.jpg",
-                "description": "Famous for its historic architecture and vibrant arts scene."
+                "type": "beach",
+                "name": "Perth",
+                "imageURL": "../assets/places/australia_perth.jpg",
+                "description": "Known for its beautiful beaches and vibrant arts scene."
             },
             {
+                "type": "temple",
                 "name": "Darwin",
                 "imageURL": "../assets/places/australia_darwin.jpg",
                 "description": "Known for its tropical climate and proximity to national parks."
             },
             {
+                "type": "beach",
                 "name": "Cairns",
                 "imageURL": "../assets/places/australia_cairns.jpg",
                 "description": "Gateway to the Great Barrier Reef and known for its lush rainforests."
@@ -60,54 +52,46 @@
         "name": "Canada",
         "cities": [
             {
+                "type": "temple",
                 "name": "Toronto",
                 "imageURL": "../assets/places/canada_toronto.jpg",
                 "description": "A bustling metropolis known for its skyscrapers and multicultural environment."
             },
             {
+                "type": "beach",
                 "name": "Vancouver",
                 "imageURL": "../assets/places/canada_vancouver.jpg",
                 "description": "Famous for its scenic beauty and outdoor activities, surrounded by mountains and ocean."
             },
             {
+                "type": "temple",
                 "name": "Montreal",
                 "imageURL": "../assets/places/canada_montreal.jpg",
                 "description": "Known for its vibrant arts scene and European charm."
             },
             {
-                "name": "Calgary",
-                "imageURL": "../assets/places/canada_calgary.jpg",
-                "description": "Famous for the Calgary Stampede and proximity to the Rocky Mountains."
-            },
-            {
-                "name": "Ottawa",
-                "imageURL": "../assets/places/canada_ottawa.jpg",
-                "description": "The capital city, known for its historic buildings and national museums."
-            },
-            {
-                "name": "Quebec City",
-                "imageURL": "../assets/places/canada_quebec.jpg",
-                "description": "Famous for its well-preserved historic architecture and European feel."
-            },
-            {
+                "type": "beach",
                 "name": "Halifax",
                 "imageURL": "../assets/places/canada_halifax.jpg",
                 "description": "A vibrant coastal city known for its maritime history."
             },
             {
+                "type": "temple",
+                "name": "Quebec City",
+                "imageURL": "../assets/places/canada_quebec.jpg",
+                "description": "Famous for its well-preserved historic architecture and European feel."
+            },
+            {
+                "type": "temple",
+                "name": "Ottawa",
+                "imageURL": "../assets/places/canada_ottawa.jpg",
+                "description": "The capital city, known for its historic buildings and national museums."
+            },
+            {
+                "type": "beach",
                 "name": "Victoria",
                 "imageURL": "../assets/places/canada_victoria.jpg",
                 "description": "Known for its British colonial architecture and beautiful gardens."
-            },
-            {
-                "name": "Winnipeg",
-                "imageURL": "../assets/places/canada_winnipeg.jpg",
-                "description": "Known for its cultural diversity and historic sites."
-            },
-            {
-                "name": "St. John's",
-                "imageURL": "../assets/places/canada_stjohns.jpg",
-                "description": "One of the oldest cities in North America, known for its colorful row houses."
             }
         ]
     },
@@ -116,54 +100,52 @@
         "name": "USA",
         "cities": [
             {
+                "type": "temple",
                 "name": "New York City",
                 "imageURL": "../assets/places/usa_nyc.jpg",
                 "description": "The city that never sleeps, known for Times Square, Central Park, and its vibrant culture."
             },
             {
+                "type": "beach",
                 "name": "Los Angeles",
                 "imageURL": "../assets/places/usa_losangeles.jpg",
                 "description": "Famous for Hollywood, beautiful beaches, and a diverse entertainment industry."
             },
             {
+                "type": "temple",
                 "name": "Chicago",
                 "imageURL": "../assets/places/usa_chicago.jpg",
                 "description": "Known for its stunning architecture and deep-dish pizza."
             },
             {
-                "name": "Houston",
-                "imageURL": "../assets/places/usa_houston.jpg",
-                "description": "A large city known for its space exploration and diverse culture."
-            },
-            {
-                "name": "Phoenix",
-                "imageURL": "../assets/places/usa_phoenix.jpg",
-                "description": "Famous for its year-round sun and warm temperatures."
-            },
-            {
-                "name": "Philadelphia",
-                "imageURL": "../assets/places/usa_philadelphia.jpg",
-                "description": "Known for its rich history and the Liberty Bell."
-            },
-            {
-                "name": "San Antonio",
-                "imageURL": "../assets/places/usa_sanantonio.jpg",
-                "description": "Famous for the Alamo and its vibrant cultural scene."
-            },
-            {
+                "type": "beach",
                 "name": "San Diego",
                 "imageURL": "../assets/places/usa_sandiego.jpg",
                 "description": "Known for its beautiful beaches and warm climate."
             },
             {
-                "name": "Dallas",
-                "imageURL": "../assets/places/usa_dallas.jpg",
-                "description": "A modern city known for its historical significance and cultural diversity."
+                "type": "temple",
+                "name": "Philadelphia",
+                "imageURL": "../assets/places/usa_philadelphia.jpg",
+                "description": "Known for its rich history and the Liberty Bell."
             },
             {
-                "name": "San Jose",
-                "imageURL": "../assets/places/usa_sanjose.jpg",
-                "description": "The heart of Silicon Valley, known for its tech industry."
+                "type": "beach",
+                "name": "Miami",
+                "imageURL": "../assets/places/usa_miami.jpg",
+                "description": "Famous for its vibrant nightlife and beautiful beaches."
+            },
+            {
+                "type": "temple",
+                "name": "San Antonio",
+                "imageURL": "../assets/places/usa_sanantonio.jpg",
+                "description": "Famous for the Alamo and its vibrant cultural scene."
+            },
+            {
+                "type": "beach",
+                "name": "Hawaii",
+                "imageURL": "../assets/places/usa_hawaii.jpg",
+                "description": "Known for its stunning beaches and tropical climate."
             }
         ]
     },
@@ -172,54 +154,46 @@
         "name": "Mexico",
         "cities": [
             {
+                "type": "temple",
                 "name": "Mexico City",
                 "imageURL": "../assets/places/mexico_mexicocity.jpg",
                 "description": "The capital, known for its rich history and vibrant culture."
             },
             {
+                "type": "beach",
                 "name": "Cancún",
                 "imageURL": "../assets/places/mexico_cancun.jpg",
                 "description": "Famous for its beautiful beaches and nightlife."
             },
             {
+                "type": "temple",
                 "name": "Guadalajara",
                 "imageURL": "../assets/places/mexico_guadalajara.jpg",
                 "description": "Known for its mariachi music and tequila production."
             },
             {
-                "name": "Monterrey",
-                "imageURL": "../assets/places/mexico_monterrey.jpg",
-                "description": "A major industrial hub known for its modern skyline."
+                "type": "beach",
+                "name": "Acapulco",
+                "imageURL": "../assets/places/mexico_acapulco.jpg",
+                "description": "Famous for its beaches and cliff divers."
             },
             {
+                "type": "temple",
                 "name": "Puebla",
                 "imageURL": "../assets/places/mexico_puebla.jpg",
                 "description": "Famous for its culinary heritage and colonial architecture."
             },
             {
-                "name": "Tijuana",
-                "imageURL": "../assets/places/mexico_tijuana.jpg",
-                "description": "Known for its border culture and vibrant nightlife."
-            },
-            {
-                "name": "Mérida",
-                "imageURL": "../assets/places/mexico_merida.jpg",
-                "description": "Known for its colonial history and Mayan heritage."
-            },
-            {
-                "name": "Oaxaca",
-                "imageURL": "../assets/places/mexico_oaxaca.jpg",
-                "description": "Famous for its indigenous cultures and culinary traditions."
-            },
-            {
+                "type": "beach",
                 "name": "Veracruz",
                 "imageURL": "../assets/places/mexico_veracruz.jpg",
                 "description": "Known for its port, music, and seafood."
             },
             {
-                "name": "Acapulco",
-                "imageURL": "../assets/places/mexico_acapulco.jpg",
-                "description": "Famous for its beaches and cliff divers."
+                "type": "temple",
+                "name": "Oaxaca",
+                "imageURL": "../assets/places/mexico_oaxaca.jpg",
+                "description": "Famous for its indigenous cultures and culinary traditions."
             }
         ]
     }
