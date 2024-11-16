@@ -6,13 +6,13 @@
             {
                 "type": "beach",
                 "name": "Sydney",
-                "imageURL": "../assets/places/australia_sydney.jpg",
+                "imageURL": "../assets/places/australia_sydney.jpeg",
                 "description": "A vibrant city known for its iconic landmarks like Sydney Opera House and Sydney Harbour Bridge."
             },
             {
                 "type": "beach",
                 "name": "Gold Coast",
-                "imageURL": "../assets/places/australia_goldcoast.jpg",
+                "imageURL": "../assets/places/australia_goldcoast.jpeg",
                 "description": "Renowned for its surfing beaches and theme parks."
             },
             {
@@ -24,7 +24,7 @@
             {
                 "type": "temple",
                 "name": "Canberra",
-                "imageURL": "../assets/places/australia_canberra.jpg",
+                "imageURL": "../assets/places/australia_canberra.jpeg",
                 "description": "The capital city, known for its national monuments and museums."
             },
             {
@@ -36,13 +36,13 @@
             {
                 "type": "temple",
                 "name": "Darwin",
-                "imageURL": "../assets/places/australia_darwin.jpg",
+                "imageURL": "../assets/places/australia_darwin.jpeg",
                 "description": "Known for its tropical climate and proximity to national parks."
             },
             {
                 "type": "beach",
                 "name": "Cairns",
-                "imageURL": "../assets/places/australia_cairns.jpg",
+                "imageURL": "../assets/places/australia_cairns.jpeg",
                 "description": "Gateway to the Great Barrier Reef and known for its lush rainforests."
             }
         ]
