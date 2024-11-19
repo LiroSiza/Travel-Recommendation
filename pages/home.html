@@ -57,37 +57,13 @@
                     <div id="input-search-div"><input id="search-input" type="text" placeholder="Enter a destination or keyword"></div>
                     <div id="buttons" class="d-flex">
                         <button type="button" class="btn btn-light" onclick="searchPlace()">Search</button>
-                        <button type="button" class="btn btn-light">Clear</button>
+                        <button type="button" class="btn btn-light" onclick="clear()">Clear</button>
                     </div>
                 </div>
             </div>
         </div>
     </nav>
-    <div class="scrollview">
-        <div class="item">
-            <div><img src="../assets/places/australia_brisbane.jpg" alt="" width="100%" height="auto"></div>
-            <div id="item-text-box">
-                <p id="item-text"><b id="black-text">Sydney, Australia</b></p>
-                <p id="item-text-desc">A vibrant city known for its iconic landmarks like Sydney Opera House and Sydney Harbour Bridge.</p>
-                <button id="btn-visit" type="button" class="btn btn-light">Visit</button>
-            </div>
-        </div>
-        <div class="item">
-            <div><img src="../assets/places/australia_cairns.jpeg" alt="" width="100%" height="auto"></div>
-            <div id="item-text-box">
-                <p id="item-text"><b id="black-text">Sydney, Australia</b></p>
-                <p id="item-text-desc">A vibrant city known for its iconic landmarks like Sydney Opera House and Sydney Harbour Bridge.</p>
-                <button id="btn-visit" type="button" class="btn btn-light">Visit</button>
-            </div>
-        </div>
-        <div class="item">
-            <div><img src="../assets/places/australia_brisbane.jpg" alt="" width="100%" height="auto"></div>
-            <div id="item-text-box">
-                <p id="item-text"><b id="black-text">Sydney, Australia</b></p>
-                <p id="item-text-desc">A vibrant city known for its iconic landmarks like Sydney Opera House and Sydney Harbour Bridge.</p>
-                <button id="btn-visit" type="button" class="btn btn-light">Visit</button>
-            </div>
-        </div>
+    <div class="scrollview" id="search-container">
     </div>
     <div id="main-container">
         <aside>

@@ -7,13 +7,13 @@
                 "type": "beach",
                 "name": "Sydney",
                 "imageURL": "../assets/places/australia_sydney.jpeg",
-                "description": "A vibrant city known for its iconic landmarks like Sydney Opera House and Sydney Harbour Bridge."
+                "description": "A vibraey Opera House Sydney Harbour Bridge."
             },
             {
                 "type": "beach",
                 "name": "Gold Coast",
                 "imageURL": "../assets/places/australia_goldcoast.jpeg",
-                "description": "Renowned for its surfing beaches and theme parks."
+                "description": "Renowned for its sueaches and theme parks."
             },
             {
                 "type": "temple",
@@ -31,7 +31,7 @@
                 "type": "beach",
                 "name": "Perth",
                 "imageURL": "../assets/places/australia_perth.jpg",
-                "description": "Known for its beautiful beaches and vibrant arts scene."
+                "description": "Known for  and vibrant arts scene."
             },
             {
                 "type": "temple",

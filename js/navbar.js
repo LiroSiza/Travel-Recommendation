@@ -14,6 +14,10 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+function clear(){
+  document.getElementById("search-input").innerHTML = " ";
+}
+
 let jsonData = [];  // Contains all the places from json
 getData();
 async function getData() {
@@ -76,10 +80,19 @@ function searchPlace(){  // Search places by keywords
         }
       });
     }
+    //  Display places
+    const searchContainer = document.getElementById("search-container");
+    var string = "";
     results.forEach(city => {
       console.log("Country: ",city.country);
       console.log("City: ",city.city);
       console.log("Img: ",city.imageURL);
       console.log("Desc: ",city.description);
-    });
+      if(city.description.length > 48){
+        string += `<div class='item'><div><img src='${city.imageURL}' alt='' width='100%' height='auto'></div><div id='item-text-box'><p id='item-text'><b id='black-text'>${city.city}, ${city.country}</b></p><p id='item-text-desc'>${city.description}</p><button id='btn-visit' type='button' class='btn btn-light'>Visit</button></div></div>`;
+      }else{
+        string += `<div class='item-2'><div><img src='${city.imageURL}' alt='' width='100%' height='auto'></div><div id='item-text-box'><p id='item-text'><b id='black-text'>${city.city}, ${city.country}</b></p><p id='item-text-desc'>${city.description}</p><button id='btn-visit' type='button' class='btn btn-light'>Visit</button></div></div>`;
+      }
+      });
+    searchContainer.innerHTML = string;
 }
