@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const links = document.querySelectorAll("#div-links a");
     const searchInput = document.getElementById('search-input');
+    const clearButton = document.getElementById('btn-clear');
     links.forEach(link => {
         if (link.href === window.location.href) {
             link.classList.add("active");
@@ -12,11 +13,18 @@ document.addEventListener("DOMContentLoaded", function () {
         searchPlace();
       }
     });
-});
 
-function clear(){
-  document.getElementById("search-input").innerHTML = " ";
-}
+    searchInput.addEventListener('input', function() {
+      if (searchInput.value.trim() === "") {
+        document.getElementById("search-container").innerHTML = "";
+      }
+    });
+
+    clearButton.addEventListener('click', (event) => {
+      document.getElementById("search-container").innerHTML = "";
+      document.getElementById("search-input").value = "";
+    });
+});
 
 let jsonData = [];  // Contains all the places from json
 getData();

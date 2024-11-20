@@ -54,7 +54,7 @@
             {
                 "type": "temple",
                 "name": "Toronto",
-                "imageURL": "../assets/places/canada_toronto.jpg",
+                "imageURL": "../assets/places/canada_toronto.jpeg",
                 "description": "A bustling metropolis known for its skyscrapers and multicultural environment."
             },
             {
@@ -66,13 +66,13 @@
             {
                 "type": "temple",
                 "name": "Montreal",
-                "imageURL": "../assets/places/canada_montreal.jpg",
+                "imageURL": "../assets/places/canada_montreal.jpeg",
                 "description": "Known for its vibrant arts scene and European charm."
             },
             {
                 "type": "beach",
                 "name": "Halifax",
-                "imageURL": "../assets/places/canada_halifax.jpg",
+                "imageURL": "../assets/places/canada_halifax.jpeg",
                 "description": "A vibrant coastal city known for its maritime history."
             },
             {
