@@ -26,6 +26,25 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+document.addEventListener("click", function (event) {
+  const searchInput = document.getElementById("search-input");
+  const searchContainer = document.getElementById("search-container");
+  const clearButton = document.getElementById("btn-clear");
+  const searchButton = document.querySelector("button[onclick='searchPlace()']");
+
+  // Check if the click occurred outside the search bar, results container and buttons
+  if (
+      !searchInput.contains(event.target) && 
+      !searchContainer.contains(event.target) && 
+      event.target !== clearButton && 
+      event.target !== searchButton
+  ) {
+      // Clear search
+      //searchInput.value = "";
+      searchContainer.innerHTML = "";
+  }
+});
+
 let jsonData = [];  // Contains all the places from json
 getData();
 async function getData() {
